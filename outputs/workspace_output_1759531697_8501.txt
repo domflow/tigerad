@@ -1,0 +1,5 @@
+===================================
+Notification System API Test Suite
+===================================
+[1;33m[INFO][0m Test 1: Registering new user
+[0;31m✗ User registration[0m

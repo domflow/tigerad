@@ -1,0 +1,5 @@
+> GET /api.php/notifications HTTP/1.1
+> Authorization: Bearer 
+< HTTP/1.1 401 Unauthorized
+< Access-Control-Allow-Headers: Content-Type, Authorization
+{"error":"No token provided"}

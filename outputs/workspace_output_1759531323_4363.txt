@@ -1,0 +1,247 @@
+Get:1 https://cli.github.com/packages stable InRelease [3917 B]
+Get:2 https://deb.nodesource.com/node_20.x nodistro InRelease [12.1 kB]
+Get:3 https://cli.github.com/packages stable/main amd64 Packages [347 B]
+Hit:4 http://deb.debian.org/debian bookworm InRelease
+Get:5 http://deb.debian.org/debian bookworm-updates InRelease [55.4 kB]
+Get:6 https://deb.nodesource.com/node_20.x nodistro/main amd64 Packages [12.8 kB]
+Get:7 http://deb.debian.org/debian-security bookworm-security InRelease [48.0 kB]
+Get:8 http://deb.debian.org/debian-security bookworm-security/main amd64 Packages [281 kB]
+Fetched 413 kB in 1s (439 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapache2-mod-php8.2 libapr1
+  libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap libjansson4 liblua5.3-0
+  php-common php8.2 php8.2-cli php8.2-curl php8.2-mysql php8.2-opcache
+  php8.2-readline ssl-cert
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom www-browser
+  php-pear
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapache2-mod-php8.2 libapr1
+  libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap libjansson4 liblua5.3-0
+  php php-common php-curl php-json php-mysql php8.2 php8.2-cli php8.2-common
+  php8.2-curl php8.2-mysql php8.2-opcache php8.2-readline ssl-cert
+0 upgraded, 24 newly installed, 0 to remove and 6 not upgraded.
+Need to get 7092 kB of archives.
+After this operation, 30.4 MB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bookworm/main amd64 libapr1 amd64 1.7.2-3+deb12u1 [102 kB]
+Get:2 http://deb.debian.org/debian bookworm/main amd64 libaprutil1 amd64 1.6.3-1 [87.8 kB]
+Get:3 http://deb.debian.org/debian bookworm/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.3-1 [13.6 kB]
+Get:4 http://deb.debian.org/debian bookworm/main amd64 libaprutil1-ldap amd64 1.6.3-1 [11.8 kB]
+Get:5 http://deb.debian.org/debian bookworm/main amd64 libjansson4 amd64 2.14-2 [40.8 kB]
+Get:6 http://deb.debian.org/debian bookworm/main amd64 liblua5.3-0 amd64 5.3.6-2 [123 kB]
+Get:7 http://deb.debian.org/debian bookworm/main amd64 apache2-bin amd64 2.4.65-1~deb12u1 [1396 kB]
+Get:8 http://deb.debian.org/debian bookworm/main amd64 apache2-data all 2.4.65-1~deb12u1 [160 kB]
+Get:9 http://deb.debian.org/debian bookworm/main amd64 apache2-utils amd64 2.4.65-1~deb12u1 [214 kB]
+Get:10 http://deb.debian.org/debian bookworm/main amd64 apache2 amd64 2.4.65-1~deb12u1 [228 kB]
+Get:11 http://deb.debian.org/debian bookworm/main amd64 php-common all 2:93 [13.1 kB]
+Get:12 http://deb.debian.org/debian bookworm/main amd64 php8.2-common amd64 8.2.29-1~deb12u1 [689 kB]
+Get:13 http://deb.debian.org/debian bookworm/main amd64 php8.2-opcache amd64 8.2.29-1~deb12u1 [346 kB]
+Get:14 http://deb.debian.org/debian bookworm/main amd64 php8.2-readline amd64 8.2.29-1~deb12u1 [12.4 kB]
+Get:15 http://deb.debian.org/debian bookworm/main amd64 php8.2-cli amd64 8.2.29-1~deb12u1 [1738 kB]
+Get:16 http://deb.debian.org/debian bookworm/main amd64 libapache2-mod-php8.2 amd64 8.2.29-1~deb12u1 [1679 kB]
+Get:17 http://deb.debian.org/debian bookworm/main amd64 php8.2 all 8.2.29-1~deb12u1 [47.2 kB]
+Get:18 http://deb.debian.org/debian bookworm/main amd64 php all 2:8.2+93 [3628 B]
+Get:19 http://deb.debian.org/debian bookworm/main amd64 php8.2-curl amd64 8.2.29-1~deb12u1 [35.9 kB]
+Get:20 http://deb.debian.org/debian bookworm/main amd64 php-curl all 2:8.2+93 [3656 B]
+Get:21 http://deb.debian.org/debian bookworm/main amd64 php-json all 2:8.2+93 [3652 B]
+Get:22 http://deb.debian.org/debian bookworm/main amd64 php8.2-mysql amd64 8.2.29-1~deb12u1 [118 kB]
+Get:23 http://deb.debian.org/debian bookworm/main amd64 php-mysql all 2:8.2+93 [3660 B]
+Get:24 http://deb.debian.org/debian bookworm/main amd64 ssl-cert all 1.1.2 [21.1 kB]
+Fetched 7092 kB in 1s (7481 kB/s)
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 52532 files and directories currently installed.)
+Preparing to unpack .../00-libapr1_1.7.2-3+deb12u1_amd64.deb ...
+Unpacking libapr1:amd64 (1.7.2-3+deb12u1) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../01-libaprutil1_1.6.3-1_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.6.3-1) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../02-libaprutil1-dbd-sqlite3_1.6.3-1_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.3-1) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../03-libaprutil1-ldap_1.6.3-1_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.6.3-1) ...
+Selecting previously unselected package libjansson4:amd64.
+Preparing to unpack .../04-libjansson4_2.14-2_amd64.deb ...
+Unpacking libjansson4:amd64 (2.14-2) ...
+Selecting previously unselected package liblua5.3-0:amd64.
+Preparing to unpack .../05-liblua5.3-0_5.3.6-2_amd64.deb ...
+Unpacking liblua5.3-0:amd64 (5.3.6-2) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../06-apache2-bin_2.4.65-1~deb12u1_amd64.deb ...
+Unpacking apache2-bin (2.4.65-1~deb12u1) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../07-apache2-data_2.4.65-1~deb12u1_all.deb ...
+Unpacking apache2-data (2.4.65-1~deb12u1) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../08-apache2-utils_2.4.65-1~deb12u1_amd64.deb ...
+Unpacking apache2-utils (2.4.65-1~deb12u1) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../09-apache2_2.4.65-1~deb12u1_amd64.deb ...
+Unpacking apache2 (2.4.65-1~deb12u1) ...
+Selecting previously unselected package php-common.
+Preparing to unpack .../10-php-common_2%3a93_all.deb ...
+Unpacking php-common (2:93) ...
+Selecting previously unselected package php8.2-common.
+Preparing to unpack .../11-php8.2-common_8.2.29-1~deb12u1_amd64.deb ...
+Unpacking php8.2-common (8.2.29-1~deb12u1) ...
+Selecting previously unselected package php8.2-opcache.
+Preparing to unpack .../12-php8.2-opcache_8.2.29-1~deb12u1_amd64.deb ...
+Unpacking php8.2-opcache (8.2.29-1~deb12u1) ...
+Selecting previously unselected package php8.2-readline.
+Preparing to unpack .../13-php8.2-readline_8.2.29-1~deb12u1_amd64.deb ...
+Unpacking php8.2-readline (8.2.29-1~deb12u1) ...
+Selecting previously unselected package php8.2-cli.
+Preparing to unpack .../14-php8.2-cli_8.2.29-1~deb12u1_amd64.deb ...
+Unpacking php8.2-cli (8.2.29-1~deb12u1) ...
+Selecting previously unselected package libapache2-mod-php8.2.
+Preparing to unpack .../15-libapache2-mod-php8.2_8.2.29-1~deb12u1_amd64.deb ...
+Unpacking libapache2-mod-php8.2 (8.2.29-1~deb12u1) ...
+Selecting previously unselected package php8.2.
+Preparing to unpack .../16-php8.2_8.2.29-1~deb12u1_all.deb ...
+Unpacking php8.2 (8.2.29-1~deb12u1) ...
+Selecting previously unselected package php.
+Preparing to unpack .../17-php_2%3a8.2+93_all.deb ...
+Unpacking php (2:8.2+93) ...
+Selecting previously unselected package php8.2-curl.
+Preparing to unpack .../18-php8.2-curl_8.2.29-1~deb12u1_amd64.deb ...
+Unpacking php8.2-curl (8.2.29-1~deb12u1) ...
+Selecting previously unselected package php-curl.
+Preparing to unpack .../19-php-curl_2%3a8.2+93_all.deb ...
+Unpacking php-curl (2:8.2+93) ...
+Selecting previously unselected package php-json.
+Preparing to unpack .../20-php-json_2%3a8.2+93_all.deb ...
+Unpacking php-json (2:8.2+93) ...
+Selecting previously unselected package php8.2-mysql.
+Preparing to unpack .../21-php8.2-mysql_8.2.29-1~deb12u1_amd64.deb ...
+Unpacking php8.2-mysql (8.2.29-1~deb12u1) ...
+Selecting previously unselected package php-mysql.
+Preparing to unpack .../22-php-mysql_2%3a8.2+93_all.deb ...
+Unpacking php-mysql (2:8.2+93) ...
+Selecting previously unselected package ssl-cert.
+Preparing to unpack .../23-ssl-cert_1.1.2_all.deb ...
+Unpacking ssl-cert (1.1.2) ...
+Setting up php-common (2:93) ...
+Created symlink /etc/systemd/system/timers.target.wants/phpsessionclean.timer → /lib/systemd/system/phpsessionclean.timer.
+Setting up php8.2-common (8.2.29-1~deb12u1) ...
+
+Creating config file /etc/php/8.2/mods-available/calendar.ini with new version
+
+Creating config file /etc/php/8.2/mods-available/ctype.ini with new version
+
+Creating config file /etc/php/8.2/mods-available/exif.ini with new version
+
+Creating config file /etc/php/8.2/mods-available/fileinfo.ini with new version
+
+Creating config file /etc/php/8.2/mods-available/ffi.ini with new version
+
+Creating config file /etc/php/8.2/mods-available/ftp.ini with new version
+
+Creating config file /etc/php/8.2/mods-available/gettext.ini with new version
+
+Creating config file /etc/php/8.2/mods-available/iconv.ini with new version
+
+Creating config file /etc/php/8.2/mods-available/pdo.ini with new version
+
+Creating config file /etc/php/8.2/mods-available/phar.ini with new version
+
+Creating config file /etc/php/8.2/mods-available/posix.ini with new version
+
+Creating config file /etc/php/8.2/mods-available/shmop.ini with new version
+
+Creating config file /etc/php/8.2/mods-available/sockets.ini with new version
+
+Creating config file /etc/php/8.2/mods-available/sysvmsg.ini with new version
+
+Creating config file /etc/php/8.2/mods-available/sysvsem.ini with new version
+
+Creating config file /etc/php/8.2/mods-available/sysvshm.ini with new version
+
+Creating config file /etc/php/8.2/mods-available/tokenizer.ini with new version
+Setting up php8.2-mysql (8.2.29-1~deb12u1) ...
+
+Creating config file /etc/php/8.2/mods-available/mysqlnd.ini with new version
+
+Creating config file /etc/php/8.2/mods-available/mysqli.ini with new version
+
+Creating config file /etc/php/8.2/mods-available/pdo_mysql.ini with new version
+Setting up php8.2-opcache (8.2.29-1~deb12u1) ...
+
+Creating config file /etc/php/8.2/mods-available/opcache.ini with new version
+Setting up php8.2-readline (8.2.29-1~deb12u1) ...
+
+Creating config file /etc/php/8.2/mods-available/readline.ini with new version
+Setting up libapr1:amd64 (1.7.2-3+deb12u1) ...
+Setting up libjansson4:amd64 (2.14-2) ...
+Setting up php8.2-curl (8.2.29-1~deb12u1) ...
+
+Creating config file /etc/php/8.2/mods-available/curl.ini with new version
+Setting up ssl-cert (1.1.2) ...
+Setting up liblua5.3-0:amd64 (5.3.6-2) ...
+Setting up apache2-data (2.4.65-1~deb12u1) ...
+Setting up php8.2-cli (8.2.29-1~deb12u1) ...
+update-alternatives: using /usr/bin/php8.2 to provide /usr/bin/php (php) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/php.1.gz because associated file /usr/share/man/man1/php8.2.1.gz (of link group php) doesn't exist
+update-alternatives: using /usr/bin/phar8.2 to provide /usr/bin/phar (phar) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/phar.1.gz because associated file /usr/share/man/man1/phar8.2.1.gz (of link group phar) doesn't exist
+update-alternatives: using /usr/bin/phar.phar8.2 to provide /usr/bin/phar.phar (phar.phar) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/phar.phar.1.gz because associated file /usr/share/man/man1/phar.phar8.2.1.gz (of link group phar.phar) doesn't exist
+
+Creating config file /etc/php/8.2/cli/php.ini with new version
+Setting up libaprutil1:amd64 (1.6.3-1) ...
+Setting up php-curl (2:8.2+93) ...
+Setting up php-mysql (2:8.2+93) ...
+Setting up php-json (2:8.2+93) ...
+Setting up libaprutil1-ldap:amd64 (1.6.3-1) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.3-1) ...
+Setting up apache2-utils (2.4.65-1~deb12u1) ...
+Setting up apache2-bin (2.4.65-1~deb12u1) ...
+Setting up libapache2-mod-php8.2 (8.2.29-1~deb12u1) ...
+Package apache2 is not configured yet. Will defer actions by package libapache2-mod-php8.2.
+
+Creating config file /etc/php/8.2/apache2/php.ini with new version
+No module matches 
+Setting up apache2 (2.4.65-1~deb12u1) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+info: Switch to mpm prefork for package libapache2-mod-php8.2
+Module mpm_event disabled.
+Enabling module mpm_prefork.
+info: Executing deferred 'a2enmod php8.2' for package libapache2-mod-php8.2
+Enabling module php8.2.
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of start.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.service.
+Setting up php8.2 (8.2.29-1~deb12u1) ...
+Setting up php (2:8.2+93) ...
+Processing triggers for libc-bin (2.36-9+deb12u13) ...
+Processing triggers for php8.2-cli (8.2.29-1~deb12u1) ...
+Processing triggers for libapache2-mod-php8.2 (8.2.29-1~deb12u1) ...

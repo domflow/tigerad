@@ -1,0 +1,20 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 127.0.0.1:80...
+* Connected to localhost (127.0.0.1) port 80 (#0)
+> GET /api.php/notifications HTTP/1.1
+> Host: localhost
+> User-Agent: curl/7.88.1
+> Accept: */*
+> Authorization: Bearer 
+> 
+< HTTP/1.1 401 Unauthorized
+< Date: Fri, 03 Oct 2025 22:45:24 GMT
+< Server: Apache/2.4.65 (Debian)
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+< Access-Control-Allow-Headers: Content-Type, Authorization
+< Content-Length: 29
+< Content-Type: application/json
+< 
+{ [29 bytes data]

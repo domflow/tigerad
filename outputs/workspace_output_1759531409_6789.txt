@@ -1,0 +1,1 @@
+{"message":"User created successfully","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTc1OTYxNzgwOSwiaWF0IjoxNzU5NTMxNDA5fQ.osN4-gTzgDdOiie60i1TEK2PCbn_jnidKnyNR3qyxaI","user_id":"1"}

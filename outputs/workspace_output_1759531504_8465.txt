@@ -1,0 +1,2 @@
+[Fri Oct 03 22:43:17.354583 2025] [mpm_prefork:notice] [pid 9526:tid 9526] AH00163: Apache/2.4.65 (Debian) configured -- resuming normal operations
+[Fri Oct 03 22:43:17.354619 2025] [core:notice] [pid 9526:tid 9526] AH00094: Command line: '/usr/sbin/apache2'

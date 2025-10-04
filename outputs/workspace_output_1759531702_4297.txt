@@ -1,0 +1,5 @@
+{
+  "message": "User created successfully",
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMiIsImV4cCI6MTc1OTYxODEwMiwiaWF0IjoxNzU5NTMxNzAyfQ.LAp1xAbzehRMDqYyXpDoRnfX1EKpNU_Q4mzz77bo1Uo",
+  "user_id": "2"
+}
